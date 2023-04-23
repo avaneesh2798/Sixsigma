@@ -1,13 +1,431 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  /* display: none; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.logo1 img {
+  width: 150px;
+  margin-left: 5rem;
+}
+.text ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* margin-left: 5rem; */
+}
+.text ul li {
+  list-style: none;
+  margin: 9px;
+  padding: 5px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.social {
+  /* margin-left: 5rem; */
+  width: 40%;
+}
+.social ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.social ul li,
+.btn {
+  list-style: none;
+  margin-top: 2rem;
+}
+.social li a {
+  height: 10rem;
+  width: 10rem;
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  background-color: yellow;
+}
+.btn:hover {
+  background-color: yellow;
+}
+.social a {
+  background-color: yellow;
+  border: 2px dotted black;
+  border-radius: 100px;
+}
+
+.main2 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 50px;
+  background: black;
+  padding-right: 100px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  background: white;
+  height: 90%;
+  align-self: flex-end;
+  clip-path: polygon(0% 0%, 75% 0%, 94% 100%, 75% 100%, 0% 100%);
+  padding-right: 80px;
+}
+
+.second {
+  display: flex;
+
+  align-items: center;
+  color: white;
+}
+.first p,
+.second p {
+  margin: 0 20px;
+}
+.second img {
+  width: 100px;
+  height: 20px;
+}
+.cart img {
+  width: 20px;
+  height: 20px;
+}
+.cart span {
+  background-color: green;
+  position: relative;
+  bottom: 8px;
+  border: 1px solid green;
+  border-radius: 100%;
+}
+.anniversery {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5rem;
+}
+.six-sigma {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+}
+.left {
+  width: 20%;
+}
+.left img {
+  width: 170px;
+  height: 58px;
+  margin-left: 3.5rem;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  width: 80%;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 230px;
+}
+.logo img,
+.mail img {
+  width: 36px;
+  height: 36px;
+}
+
+.mail {
+  position: relative;
+  top: 15px;
+  left: 50px;
+}
+.logo {
+  position: relative;
+  top: 15px;
+  left: 180px;
+}
+.btn1 {
+  background-color: yellow;
+  width: 140px;
+  height: 50px;
+  border: none;
+  padding: 2px;
+  font-size: 20px;
+  margin-left: 2rem;
+  /* margin-top: 1rem; */
+}
+.btn1:hover {
+  background-color: green;
+}
+.mail1 {
+  margin-left: 4.5rem;
+}
+.cont {
+  margin-left: 12rem;
+}
+h4 {
+  color: green;
+  font-size: 17px;
+}
+.nav1 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #007d3d;
+  width: 80%;
+  height: 40px;
+  margin-left: 17rem;
+  clip-path: polygon(100% 0, 100% 100%, 2% 100%, 5% 0%);
+  z-index: 100;
+}
+.nav1 ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 1.5rem;
+  width: 100%;
+  margin-top: 8px;
+}
+.nav1 ul li {
+  color: #fff;
+  margin: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.nav1 img {
+  width: 24px;
+  height: 22px;
+  margin-top: 8px;
+}
+.nav1 ul li:hover {
+  color: black;
+  background-color: yellow;
+}
+.training {
+  display: flex;
+
+  width: 100%;
+  height: 100vh;
+  background: url(./images/bg-dsk.png) center center/cover no-repeat;
+  margin-top: -1rem;
+  border-top: 5px solid #007d3d;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  color: #fff;
+  margin-left: 4rem;
+}
+.content h3 {
+  padding: 1.4rem;
+}
+.content p {
+  width: 43rem;
+  text-align: justify;
+  font-size: 16px;
+  word-spacing: 1px;
+  margin-left: 20px;
+}
+input {
+  width: 50%;
+  height: 50px;
+}
+.text button {
+  text-transform: capitalize;
+  width: 20%;
+  height: 50px;
+  background-color: green;
+}
+.text button:hover {
+  background-color: yellow;
+  text-transform: uppercase;
+  color: black;
+}
+.text {
+  display: flex;
+}
+
+.course p {
+  background-color: yellow;
+  color: black;
+  width: 23%;
+  height: 50px;
+  margin-top: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.logo2 {
+  position: relative;
+}
+.white {
+  background-color: #fcfcfc;
+  border-radius: 50%;
+  height: 110px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+  width: 110px;
+  text-align: center;
+}
+.yellow {
+  background-color: yellow;
+  border-radius: 50%;
+  height: 112px;
+  padding: 10px;
+  margin-top: 10px;
+  position: absolute;
+  top: 11rem;
+  right: -3rem;
+  width: 110px;
+  text-align: center;
+}
+
+.white img {
+  margin-left: auto;
+  height: 40px;
+}
+.yellow img {
+  margin-left: auto;
+  height: 40px;
+}
+.green {
+  background-color: green;
+  border-radius: 50%;
+  height: 110px;
+  padding: 10px;
+  margin-top: 10px;
+  color: #fff;
+  position: absolute;
+  top: 11rem;
+  left: 12rem;
+  width: 110px;
+  text-align: center;
+}
+.green img {
+  height: 40px;
+  margin-left: auto;
+}
+.black {
+  background-color: rgb(48, 47, 47);
+  border-radius: 50%;
+  height: 110px;
+  padding: 10px;
+  margin-top: 10px;
+  color: #fff;
+  position: absolute;
+  top: 19rem;
+  left: 4rem;
+  width: 110px;
+  text-align: center;
+}
+.black img {
+  height: 40px;
+  margin-left: auto;
+}
+.round {
+  position: absolute;
+  top: 13rem;
+  left: 6rem;
+}
+.trainingcourse {
+  width: 100%;
+  padding: 30px;
+}
+.trainingcourse p {
+  width: 98%;
+  padding: 18px;
+  font-size: 15px;
+}
+.trainingcourse h3 {
+  margin-left: 15px;
+}
+.chart {
+  width: 100%;
+  /* height: 500px; */
+  display: flex;
+}
+.chartleft img {
+  width: 50%;
+  height: 350px;
+}
+
+.first1 {
+  height: 50px;
+  width: 350px;
+  border: 4px solid #1f5e88;
+  text-decoration: none;
+  color: #000;
+}
+.chartimage {
+  width: 764px;
+}
+.chartright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 60%;
+  text-align: center;
+}
+
+.chartright1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.chartright1 a {
+  margin-top: 25px;
+  color: #000;
+}
+.circle {
+  display: flex;
+  width: 40%;
+}
+.chart1 {
+  width: 420px;
+  height: 350px;
+  position: absolute;
+  left: 8rem;
+}
+.circle1 {
+  width: 200px;
+  height: 400px;
+}
+.arrow {
+  width: 40px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20rem;
+}
+.six {
+  display: flex;
+  justify-content: space-evenly;
+}
+.six p{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 12rem;
+}
+.six button{
+  background-color: #1f5e88;
+  color: #fff;
+  text-transform: capitalize;
+  width: 11rem;
+  padding: 5px;
+  font-weight: 700;
+}
+.six button:hover{
+  background-color: yellow;
+  color: #000;
 }
