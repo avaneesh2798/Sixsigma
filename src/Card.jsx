@@ -3,7 +3,8 @@ import bespoke from "./images/bespoke.png";
 import best from "./images/bestquality.png";
 import lowest from "./images/lowestprice.png";
 import expert from "./images/experttrainers.png";
-import training from './images/training-bg.png'
+import training from "./images/training-bg.png";
+import yellowtv from "./images/yellow tv.svg";
 
 const Card = () => {
   return (
@@ -80,22 +81,64 @@ const Card = () => {
               aligned to customer needs, Lean Six Sigma can help any business
               produce better work, improve profitability and reduce costs.
             </p>
-            <p className="based">The <strong> methodology </strong> is based around 8 types of waste:</p>
-            <div className="list">
-              <ul>
-                <li>Defects</li>
-                <li>Inventory</li>
-                <li>Non-Utilised Talents</li>
-                <li>Waiting</li>
-                <li>Overproduction</li>
-                <li>Transportation</li>
-                <li>Extra Processing</li>
-                <li>Motion</li>
-              </ul>
+            <p className="based">
+              The <strong> methodology </strong> is based around 8 types of
+              waste:
+            </p>
+            <div className="defects">
+              <div className="defects1">
+                <ul>
+                  <li>Defects</li>
+                  <li>Inventory</li>
+                  <li>Non-Utilised Talents</li>
+                  <li>Waiting</li>{" "}
+                </ul>
+              </div>
+              <div className="defects2">
+                <ul>
+                  <li>Overproduction</li>
+                  <li>Transportation</li>
+                  <li>Extra Processing</li>
+                  <li>Motion</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="right1">
             <img src={training} alt="" />
+            <div className="yellowbelt">
+              <div className="tv">
+                <img src={yellowtv} alt="" />
+                <h3>lean six sigma yellow belt</h3>
+              </div>
+              <p>
+                The Lean Six Sigma Yellow Belt course has been created for
+                professionals who want to get more familiar with the values of
+                the Lean Six Sigma certification.
+              </p>
+            </div>
+            <div className="greenbelt">
+              <div className="tv1">
+                <img src={yellowtv} alt="" />
+                <h3>lean six sigma yellow belt</h3>
+              </div>
+              <p>
+                The Lean Six Sigma Yellow Belt course has been created for
+                professionals who want to get more familiar with the values of
+                the Lean Six Sigma certification.
+              </p>
+            </div>
+            <div className="blackbelt">
+              <div className="tv1">
+                <img src={yellowtv} alt="" />
+                <h3>lean six sigma yellow belt</h3>
+              </div>
+              <p>
+                The Lean Six Sigma Yellow Belt course has been created for
+                professionals who want to get more familiar with the values of
+                the Lean Six Sigma certification.
+              </p>
+            </div>
           </div>
         </div>
       </div>

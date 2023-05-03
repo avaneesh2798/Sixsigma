@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="841" height="288.733" viewBox="0 0 841 288.733">
+  <defs>
+    <filter id="Path_363" x="0" y="0" width="841" height="288.733" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#6b6b6b" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_129" data-name="Group 129" transform="translate(-840.5 -2532.5)">
+    <g transform="matrix(1, 0, 0, 1, 840.5, 2532.5)" filter="url(#Path_363)">
+      <path id="Path_363-2" data-name="Path 363" d="M0,0H714.6L796,120.267,714.6,243.733H0L59.329,120.267Z" transform="translate(22.5 22.5)" fill="#1e1e1e"/>
+    </g>
+    <path id="Subtraction_7" data-name="Subtraction 7" d="M68.5,137A68.518,68.518,0,0,1,41.837,5.383,68.518,68.518,0,0,1,95.164,131.617,68.073,68.073,0,0,1,68.5,137ZM65.442,17.126a49.54,49.54,0,1,0,49.54,49.54A49.6,49.6,0,0,0,65.442,17.126Z" transform="translate(1479 2646)" fill="#fff" opacity="0.12"/>
+  </g>
+</svg>

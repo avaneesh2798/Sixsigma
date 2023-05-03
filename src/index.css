@@ -514,22 +514,21 @@ input {
   width: 100%;
   height: 90vh;
   background: #fafafa;
-  
+
   /* background: linear-gradient(360deg, #fff, #f1f1f1); */
 }
-.sigmacontent{
+.sigmacontent {
   position: relative;
 }
-.sigma{
+.sigma {
   width: 100%;
   height: 20vh;
-  padding:50px 60px;
+  padding: 50px 60px;
 }
-.sigma h2{
+.sigma h2 {
   font-size: 25px;
 }
-.left{
-
+.left {
   width: 50%;
   margin-left: 15rem;
   background-color: #fff;
@@ -537,10 +536,8 @@ input {
   clip-path: polygon(89% 0, 100% 86%, 100% 100%, 0 100%, 0 0);
   /* position: absolute; */
   z-index: 1;
-
-  
 }
-.left h3{
+.left h3 {
   font-size: 20px;
   text-align: center;
   margin-top: 3rem;
@@ -555,61 +552,120 @@ input {
   width: 25%;
   border-bottom: 5px solid yellow;
 }
-.left p{
+.left p {
   text-align: center;
   padding: 0 6rem 0 2rem;
 }
-.list ul{
+.list ul {
   display: flex;
   width: 50%;
   /* flex-direction: row; */
 }
-.list ul li{
+.list ul li {
   width: 40%;
   /* padding: 0 5rem; */
   list-style: none;
-  padding:  ;
 }
-.right1 img{
-
-  /* background: url(./images/training-bg.png) center center / cover no-repeat; */
+.right1 img {
   width: 100%;
-  height: 600px;
-  margin-right: 150px;
-  border: 3px solid #1f5e88;
+  height: 500px;
   z-index: 2;
-
-
 }
-.sigmacontent{
+.right1 {
+  position: relative;
+}
+.sigmacontent {
   display: flex;
 }
-
-
-
-
-
-
-/* .sigma {
-  width: 100%;
-  height: 10vh;
-  padding: 4rem;
-  margin-top: 15px;
-}
-.sixleft {
-  width: 55%;
-  height: 90vh;
-  padding: 10px;
+.defects {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border: 1px solid #007d3d;
-  background: #fafafa;
-  
-  
+  justify-content: flex-start;
+  padding: 0 3rem;
 }
-
-.sixleft h3{
+.defects1 ul,
+.defects2 ul {
+  list-style: none;
+}
+.defects1 ul li,
+.defects2 ul li {
+  margin: 5px;
+}
+.defects2 {
+  padding-left: 4rem;
+}
+.tv {
+  display: flex;
+}
+.tv h3 {
+  text-transform: capitalize;
   font-size: 18px;
-} */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.yellowbelt {
+  width: 475px;
+  height: 155px;
+  padding-left: 1rem;
+  position: absolute;
+  background: url(./images/yellowbelt.svg) center center / contain no-repeat;
+  top: 1rem;
+}
+.greenbelt {
+  width: 475px;
+  height: 155px;
+  padding-left: 1rem;
+  position: absolute;
+  background: url(./images/greenbelt.svg) center center / contain no-repeat;
+  top: 11.5rem;
+}
+.blackbelt {
+  width: 475px;
+  height: 155px;
+  padding-left: 1rem;
+  position: absolute;
+  background: url(./images/blackbelt.svg) center center / contain no-repeat;
+  top: 22rem;
+}
+.tv img {
+  width: 35px;
+  height: 35px;
+  margin: 15px 25px;
+}
+.tv1 img{
+  width: 35px;
+  height: 35px;
+  margin: 15px 25px;
+  filter: invert(100%);
+}
+.tv1 h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  margin-left: 110px;
+  margin-top: -2.5rem;
+}
+.yellowbelt p {
+  width: 430px;
+  font-size: 14px;
+  text-align: center;
+  padding: 0px 40px;
+}
+.blackbelt p{
+  width: 430px;
+  font-size: 14px;
+  text-align: center;
+  padding: 0px 40px;
+  color: white;
+  margin-top: 20px;
+
+}
+.greenbelt p {
+  width: 430px;
+  font-size: 14px;
+  text-align: center;
+  padding: 0px 40px;
+  color: white;
+  margin-top: 20px;
+}
