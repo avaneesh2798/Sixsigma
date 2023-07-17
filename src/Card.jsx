@@ -70,10 +70,14 @@ const Card = () => {
           <h2>Lean Six Sigma training courses</h2>
         </div>
         <div className="sigmacontent">
-          <div className="left">
+          <div className="left1">
             <h3>What is Lean Six Sigma?</h3>
-            <p className="border1"> </p>
-            <p className="border2"></p>
+            <div className="green1">
+              <p></p>
+            </div>
+            <div className="yellow1">
+              <p></p>
+            </div>
             <p>
               Lean Six Sigma improves business processes by removing waste and
               reducing defects or mistakes. Using proven Japanese-inspired

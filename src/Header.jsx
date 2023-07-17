@@ -7,7 +7,7 @@ import anniversery from "./images/21-year.png";
 import cart from "./images/fshopping-cart.png";
 import callus from "./images/callus.jpg.svg";
 import mail from "./images/mail.svg";
-import training from './images/bg-dsk.png'
+
 
 const Header = () => {
   return (
@@ -99,8 +99,6 @@ const Header = () => {
           </button>
         </div>
       </div>
-
- 
     </>
   );
 };
