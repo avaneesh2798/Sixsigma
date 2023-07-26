@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heading = ( {headingss , vir , para , dat , day ,mon , year ,rupees, value , enquiry , timing,days ,view ,book}) => {
+const Heading = ( {headingss , vir , paras , dat , day ,mon , year ,rupees, value , enquiry , timing,days ,view ,book}) => {
   return (
     <>
       <div className="right10">
@@ -11,7 +11,7 @@ const Heading = ( {headingss , vir , para , dat , day ,mon , year ,rupees, value
           <div className="leancontent">
             <div className="virtu">
               <h2>{vir}</h2>
-              <p>{para}</p>
+              <p>{paras}</p>
             </div>
             <div className="virtu2">
               <p>{vir}</p>

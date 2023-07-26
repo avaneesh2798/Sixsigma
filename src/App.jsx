@@ -10,6 +10,10 @@ import { World } from "./World";
 import Worldwide from "./Worldwide";
 import Solution from "./Solution";
 import Recentblog from "./Recentblog";
+import Client from "./Client";
+import { Client2 } from "./Clients";
+import Last from "./Last";
+
 
 const App = () => {
   return (
@@ -23,7 +27,7 @@ const App = () => {
         <Heading
           headingss={val.headings ? val.headings : val.heading}
           vir={val.vir}
-          para={val.para}
+          paras={val.para}
           ima={val.month}
           dat={val.dat}
           day={val.day}
@@ -45,7 +49,18 @@ const App = () => {
           <Worldwide image={value.Imagelocation} name={value.worldname} />
         ))}
       </div>
-      <Recentblog/>
+      <Recentblog />
+
+      <div className="imo1">
+        {Client2.map((data) => (
+          <Client
+            count={data.counts}
+            images={data.imag}
+            content={data.content}
+          />
+        ))}
+      </div>
+      <Last/>
     </>
   );
 };
